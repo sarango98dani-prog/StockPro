@@ -1,0 +1,1261 @@
+Initialized native services in: C:\Users\hp\.gradle\native
+Initialized jansi services in: C:\Users\hp\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\Java\jdk-24': {JAVA_HOME=C:\Program Files\Java\jdk-24, JAVA_VERSION=24.0.1, JAVA_VENDOR=Oracle Corporation, RUNTIME_NAME=Java(TM) SE Runtime Environment, RUNTIME_VERSION=24.0.1+9-30, VM_NAME=Java HotSpot(TM) 64-Bit Server VM, VM_VERSION=24.0.1+9-30, VM_VENDOR=Oracle Corporation, OS_ARCH=amd64}
+The client will now receive all logging from the daemon (pid: 19740). The daemon log file: C:\Users\hp\.gradle\daemon\8.4\daemon-19740.out.log
+Starting 2nd build in daemon [uptime: 2 mins 28.708 secs, performance: 98%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 44% of 384 MiB]
+Using 12 worker leases.
+Now considering [C:\Users\hp\Downloads\StockPro_Estructura_Completa12] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\settings.gradle.kts'.
+Skipping generation of dependency accessors for libs as it is up-to-date.
+Projects loaded. Root project using build file 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\build.gradle.kts'.
+Included projects: [root project 'StockPro', project ':app']
+
+> Configure project :
+Evaluating root project 'StockPro' using build file 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\build.gradle.kts'.
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\build.gradle.kts'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle82 variant
+Caching disabled for Kotlin DSL accessors for project ':app' because:
+  Build cache is disabled
+Skipping Kotlin DSL accessors for project ':app' as it is up-to-date.
+All projects evaluated.
+Task name matched 'compileDebugKotlin'
+Selected primary task 'compileDebugKotlin' from project :
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:compileDebugKotlin']
+Tasks that were excluded: []
+Analytics other plugin to proto: Unknown plugin type org.gradle.kotlin.dsl.provider.plugins.KotlinScriptRootPlugin$Inject expected enum ORG_GRADLE_KOTLIN_DSL_PROVIDER_PLUGINS_KOTLINSCRIPTROOTPLUGIN
+Analytics other plugin to proto: Unknown plugin type org.gradle.kotlin.dsl.provider.plugins.KotlinScriptBasePlugin$Inject expected enum ORG_GRADLE_KOTLIN_DSL_PROVIDER_PLUGINS_KOTLINSCRIPTBASEPLUGIN
+Analytics other plugin to proto: Unknown plugin type org.gradle.api.plugins.JvmEcosystemPlugin$Inject expected enum ORG_GRADLE_API_PLUGINS_JVMECOSYSTEMPLUGIN
+Analytics other plugin to proto: Unknown plugin type org.gradle.api.plugins.JvmToolchainsPlugin$Inject expected enum ORG_GRADLE_API_PLUGINS_JVMTOOLCHAINSPLUGIN
+Analytics other plugin to proto: Unknown plugin type org.gradle.kotlin.dsl.provider.plugins.KotlinScriptBasePlugin$Inject expected enum ORG_GRADLE_KOTLIN_DSL_PROVIDER_PLUGINS_KOTLINSCRIPTBASEPLUGIN
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#302,Execution worker,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:preBuild (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:preBuild (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:preDebugBuild (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with JetifyTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with JetifyTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with JetifyTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with ExtractAarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with ExtractAarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with AarTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with AarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with JetifyTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with AarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with JetifyTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with JetifyTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with JetifyTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with JetifyTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with JetifyTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with JetifyTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with AarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with JetifyTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with AarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with JetifyTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with JetifyTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with ExtractAarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with AarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with JetifyTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with ExtractAarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with AarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with JetifyTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with ExtractAarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with ExtractAarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with AarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with AarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with JetifyTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with JetifyTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with ExtractAarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with JetifyTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with AarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with AarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with JetifyTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with AarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with AarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with JetifyTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with JetifyTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with AarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with JetifyTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with JetifyTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with JetifyTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with JetifyTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with JetifyTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with JetifyTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with JetifyTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with AarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with JetifyTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:generateDebugResValues (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with JetifyTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with ExtractAarTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with AarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with JetifyTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with AarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with JetifyTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with AarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with JetifyTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with AarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with JetifyTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with ExtractAarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with AarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with JetifyTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with JetifyTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with ExtractAarTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with JetifyTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with AarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with JetifyTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with AarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with JetifyTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with JetifyTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with JetifyTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with JetifyTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with JetifyTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with JetifyTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with JetifyTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with JetifyTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with AarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with AarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with JetifyTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with ExtractAarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with AarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with JetifyTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with ExtractAarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with AarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with JetifyTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with ExtractAarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with AarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with JetifyTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with ExtractAarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with AarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with AarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with AarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with AarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with AarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with JetifyTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with JetifyTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with JetifyTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with JetifyTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with JetifyTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with JetifyTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with JetifyTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with JetifyTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:generateDebugResources (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Skipping task ':app:generateDebugResources' as it has no actions.
+Resolve mutations for :app:mergeDebugResources (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:mergeDebugResources (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:packageDebugResources (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:parseDebugLocalResources (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Transforming android.jar with PlatformAttrTransform
+Transforming android.jar with PlatformAttrTransform
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#308,Execution worker Thread 7,5,main]) started.
+:app:processDebugMainManifest (Thread[#308,Execution worker Thread 7,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with JetifyTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with ExtractAarTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with AarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with JetifyTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with AarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with JetifyTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with AarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with JetifyTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with AarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with JetifyTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with ExtractAarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with AarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with JetifyTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with JetifyTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with ExtractAarTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with JetifyTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with AarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with JetifyTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with AarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with JetifyTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with JetifyTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with JetifyTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with JetifyTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with JetifyTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with JetifyTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with JetifyTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with JetifyTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with AarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with AarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with JetifyTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with ExtractAarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with AarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with JetifyTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with ExtractAarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with AarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with JetifyTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with ExtractAarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with AarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with JetifyTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with ExtractAarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with AarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with AarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with AarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with AarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with AarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with JetifyTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with JetifyTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with JetifyTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with JetifyTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with JetifyTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with JetifyTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with JetifyTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with JetifyTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with JetifyTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with ExtractAarTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with AarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with JetifyTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with AarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with JetifyTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with AarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with JetifyTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with AarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with JetifyTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with ExtractAarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with AarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with JetifyTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with JetifyTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with ExtractAarTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with JetifyTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with AarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with JetifyTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with AarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with JetifyTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with JetifyTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with JetifyTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with JetifyTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with JetifyTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with JetifyTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with JetifyTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with JetifyTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with AarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with AarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with JetifyTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with ExtractAarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with AarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with JetifyTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with ExtractAarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with AarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with JetifyTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with ExtractAarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with AarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with JetifyTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with ExtractAarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with AarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with AarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with AarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with AarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with AarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with AarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with JetifyTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with JetifyTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with JetifyTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with JetifyTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with JetifyTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with JetifyTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with JetifyTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with JetifyTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#311,Execution worker Thread 10,5,main]) started.
+:app:processDebugManifest (Thread[#311,Execution worker Thread 10,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#311,Execution worker Thread 10,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#311,Execution worker Thread 10,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#311,Execution worker Thread 10,5,main]) started.
+:app:processDebugResources (Thread[#311,Execution worker Thread 10,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Transforming aapt2-8.2.2-10154469-windows.jar (com.android.tools.build:aapt2:8.2.2-10154469) with Aapt2Extractor
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with JetifyTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with ExtractAarTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with AarResourcesCompilerTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with JetifyTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with AarResourcesCompilerTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with JetifyTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with AarResourcesCompilerTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with JetifyTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with AarResourcesCompilerTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with JetifyTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with ExtractAarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with AarResourcesCompilerTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with JetifyTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarResourcesCompilerTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with JetifyTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with ExtractAarTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with AarResourcesCompilerTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with JetifyTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with AarResourcesCompilerTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with JetifyTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with AarResourcesCompilerTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with JetifyTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarResourcesCompilerTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with JetifyTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarResourcesCompilerTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with JetifyTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarResourcesCompilerTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with JetifyTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with JetifyTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with JetifyTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with JetifyTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with JetifyTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with AarResourcesCompilerTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with JetifyTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with ExtractAarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with AarResourcesCompilerTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with JetifyTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with ExtractAarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with AarResourcesCompilerTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with JetifyTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with ExtractAarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with AarResourcesCompilerTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarResourcesCompilerTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with JetifyTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with ExtractAarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with AarResourcesCompilerTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with AarResourcesCompilerTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with AarResourcesCompilerTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with AarResourcesCompilerTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarResourcesCompilerTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with AarResourcesCompilerTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with JetifyTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarResourcesCompilerTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with JetifyTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with JetifyTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarResourcesCompilerTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with JetifyTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarResourcesCompilerTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with JetifyTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarResourcesCompilerTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with JetifyTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarResourcesCompilerTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with JetifyTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarResourcesCompilerTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarResourcesCompilerTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarResourcesCompilerTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarResourcesCompilerTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with JetifyTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarResourcesCompilerTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarResourcesCompilerTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarResourcesCompilerTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with JetifyTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with ExtractAarTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with LibrarySymbolTableTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with JetifyTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with LibrarySymbolTableTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with JetifyTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with LibrarySymbolTableTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with JetifyTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with LibrarySymbolTableTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with JetifyTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with ExtractAarTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with LibrarySymbolTableTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with JetifyTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with LibrarySymbolTableTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with JetifyTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with ExtractAarTransform
+Transforming material-release.aar (androidx.compose.material:material-android:1.6.0) with LibrarySymbolTableTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with JetifyTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with LibrarySymbolTableTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with JetifyTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with LibrarySymbolTableTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with JetifyTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with LibrarySymbolTableTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with JetifyTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with LibrarySymbolTableTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with JetifyTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with LibrarySymbolTableTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with JetifyTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with JetifyTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with JetifyTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with JetifyTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with JetifyTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with LibrarySymbolTableTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with JetifyTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with ExtractAarTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with LibrarySymbolTableTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with JetifyTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with ExtractAarTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with LibrarySymbolTableTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with JetifyTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with ExtractAarTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with LibrarySymbolTableTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with LibrarySymbolTableTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with JetifyTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with ExtractAarTransform
+Transforming lifecycle-process-2.7.0.aar (androidx.lifecycle:lifecycle-process:2.7.0) with LibrarySymbolTableTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with LibrarySymbolTableTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with LibrarySymbolTableTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with LibrarySymbolTableTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with LibrarySymbolTableTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with LibrarySymbolTableTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with JetifyTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with LibrarySymbolTableTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with JetifyTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with LibrarySymbolTableTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with LibrarySymbolTableTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with LibrarySymbolTableTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with JetifyTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with LibrarySymbolTableTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with JetifyTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with LibrarySymbolTableTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with JetifyTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with LibrarySymbolTableTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with JetifyTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with LibrarySymbolTableTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with JetifyTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with LibrarySymbolTableTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with LibrarySymbolTableTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with LibrarySymbolTableTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with JetifyTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with LibrarySymbolTableTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with LibrarySymbolTableTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with LibrarySymbolTableTransform
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[#311,Execution worker Thread 10,5,main]) started.
+:app:compileDebugKotlin (Thread[#311,Execution worker Thread 10,5,main]) started.
+
+> Task :app:compileDebugKotlin FAILED
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with JetifyTransform
+Transforming navigation-common-2.7.7.aar (androidx.navigation:navigation-common:2.7.7) with AarToClassTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with JetifyTransform
+Transforming navigation-runtime-2.7.7.aar (androidx.navigation:navigation-runtime:2.7.7) with AarToClassTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with JetifyTransform
+Transforming navigation-common-ktx-2.7.7.aar (androidx.navigation:navigation-common-ktx:2.7.7) with AarToClassTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with JetifyTransform
+Transforming navigation-runtime-ktx-2.7.7.aar (androidx.navigation:navigation-runtime-ktx:2.7.7) with AarToClassTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with JetifyTransform
+Transforming navigation-compose-2.7.7.aar (androidx.navigation:navigation-compose:2.7.7) with AarToClassTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with JetifyTransform
+Transforming activity-1.9.2.aar (androidx.activity:activity:1.9.2) with AarToClassTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with JetifyTransform
+Transforming activity-compose-1.9.2.aar (androidx.activity:activity-compose:1.9.2) with AarToClassTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with JetifyTransform
+Transforming activity-ktx-1.9.2.aar (androidx.activity:activity-ktx:1.9.2) with AarToClassTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with JetifyTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarToClassTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.7.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.7.0) with AarToClassTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.7.0) with AarToClassTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with JetifyTransform
+Transforming lifecycle-runtime-2.7.0.aar (androidx.lifecycle:lifecycle-runtime:2.7.0) with AarToClassTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-ktx-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0) with AarToClassTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.7.0) with AarToClassTransform
+Transforming lifecycle-common-2.7.0.jar (androidx.lifecycle:lifecycle-common:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with JetifyTransform
+Transforming lifecycle-common-2.7.0.jar (androidx.lifecycle:lifecycle-common:2.7.0) with IdentityTransform
+Transforming lifecycle-viewmodel-compose-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0) with AarToClassTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.7.0.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0) with AarToClassTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with JetifyTransform
+Transforming lifecycle-common-java8-2.7.0.jar (androidx.lifecycle:lifecycle-common-java8:2.7.0) with JetifyTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarToClassTransform
+Transforming lifecycle-common-java8-2.7.0.jar (androidx.lifecycle:lifecycle-common-java8:2.7.0) with IdentityTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with JetifyTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarToClassTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with JetifyTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarToClassTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with JetifyTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarToClassTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with JetifyTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.0) with AarToClassTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with JetifyTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.0) with AarToClassTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with JetifyTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarToClassTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with JetifyTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarToClassTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with JetifyTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarToClassTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with JetifyTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarToClassTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with JetifyTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarToClassTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with JetifyTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarToClassTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with JetifyTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarToClassTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with JetifyTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarToClassTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-data-release.aar (androidx.compose.ui:ui-tooling-data-android:1.6.8) with AarToClassTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarToClassTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with JetifyTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarToClassTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with JetifyTransform
+Transforming ui-tooling-release.aar (androidx.compose.ui:ui-tooling-android:1.6.8) with AarToClassTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarToClassTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with JetifyTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarToClassTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with JetifyTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarToClassTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarToClassTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarToClassTransform
+Transforming core-common-2.2.0.jar (androidx.arch.core:core-common:2.2.0) with JetifyTransform
+Transforming kotlin-stdlib-1.9.24.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.24) with JetifyTransform
+Transforming kotlin-stdlib-1.9.24.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.24) with IdentityTransform
+Transforming core-common-2.2.0.jar (androidx.arch.core:core-common:2.2.0) with IdentityTransform
+Transforming annotations-23.0.0.jar (org.jetbrains:annotations:23.0.0) with JetifyTransform
+Transforming annotations-23.0.0.jar (org.jetbrains:annotations:23.0.0) with IdentityTransform
+Transforming collection-jvm-1.4.0.jar (androidx.collection:collection-jvm:1.4.0) with JetifyTransform
+Transforming collection-jvm-1.4.0.jar (androidx.collection:collection-jvm:1.4.0) with IdentityTransform
+Transforming annotation-jvm-1.7.0.jar (androidx.annotation:annotation-jvm:1.7.0) with JetifyTransform
+Transforming annotation-jvm-1.7.0.jar (androidx.annotation:annotation-jvm:1.7.0) with IdentityTransform
+Transforming kotlinx-coroutines-core-jvm-1.7.1.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1) with JetifyTransform
+Transforming kotlinx-coroutines-core-jvm-1.7.1.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1) with IdentityTransform
+Transforming kotlin-stdlib-jdk8-1.8.20.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20) with JetifyTransform
+Transforming kotlin-stdlib-jdk8-1.8.20.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20) with IdentityTransform
+Transforming kotlin-stdlib-jdk7-1.8.20.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.20) with JetifyTransform
+Transforming kotlinx-coroutines-android-1.7.1.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1) with JetifyTransform
+Transforming kotlin-stdlib-jdk7-1.8.20.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.20) with IdentityTransform
+Transforming kotlinx-coroutines-android-1.7.1.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1) with IdentityTransform
+Transforming R.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-common-2.7.7-api.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-runtime-2.7.7-api.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-common-ktx-2.7.7-api.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-runtime-ktx-2.7.7-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-navigation-compose-2.7.7-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-activity-1.9.2-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-activity-compose-1.9.2-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-activity-ktx-1.9.2-api.jar with ClasspathEntrySnapshotTransform
+Transforming core-1.13.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-livedata-core-2.7.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-common-2.7.0.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-lifecycle-runtime-ktx-2.7.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-runtime-2.7.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-lifecycle-viewmodel-ktx-2.7.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-common-java8-2.7.0.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-viewmodel-2.7.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-lifecycle-viewmodel-compose-2.7.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-lifecycle-viewmodel-savedstate-2.7.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-core-ktx-1.13.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-material3-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-annotation-experimental-1.4.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-foundation-layout-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-material-icons-core-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-material-ripple-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-foundation-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-animation-core-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-animation-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-util-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-unit-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-text-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-graphics-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-geometry-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-tooling-data-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-tooling-preview-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-ui-tooling-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming versionedparcelable-1.1.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-runtime-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-runtime-saveable-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-savedstate-ktx-1.2.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-savedstate-1.2.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming core-common-2.2.0.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-collection-jvm-1.4.0.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-annotation-jvm-1.7.0.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-kotlinx-coroutines-core-jvm-1.7.1.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-kotlinx-coroutines-android-1.7.1.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-kotlin-stdlib-jdk8-1.8.20.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-kotlin-stdlib-jdk7-1.8.20.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-kotlin-stdlib-1.9.24.jar with ClasspathEntrySnapshotTransform
+Transforming jetified-annotations-23.0.0.jar with ClasspathEntrySnapshotTransform
+Transforming android.jar with ClasspathEntrySnapshotTransform
+Transforming core-lambda-stubs.jar with ClasspathEntrySnapshotTransform
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:compileDebugKotlin'.
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\kotlin', not found
+file or directory 'C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\debug\java', not found
+Kotlin source files: C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\java\com\example\stockpro\MainActivity.kt, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\java\com\example\stockpro\model\Producto.kt, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\java\com\example\stockpro\navigation\NavGraph.kt, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\java\com\example\stockpro\ui\Pantalla1.kt, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\java\com\example\stockpro\ui\Pantalla2.kt, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\java\com\example\stockpro\ui\Pantalla3.kt, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\java\com\example\stockpro\ui\Pantalla4.kt, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\src\main\java\com\example\stockpro\viewmodel\StockViewModel.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+i: found daemon on port 17295 (125568 ms old), trying to connect
+i: connected to the daemon
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=false, modifiedFiles=null, deletedFiles=null, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\build\kotlin\compileDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, outputFiles=[C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\build\tmp\kotlin-classes\debug, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\build\kotlin\compileDebugKotlin\cacheable, C:\Users\hp\Downloads\StockPro_Estructura_Completa12\app\build\kotlin\compileDebugKotlin\local-state])
+14 actionable tasks: 2 executed, 12 up-to-date
+Watched directory hierarchies: [C:\Users\hp\Downloads\StockPro_Estructura_Completa12]
