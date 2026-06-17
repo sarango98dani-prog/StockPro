@@ -5,7 +5,10 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 
 @Composable
@@ -20,8 +23,17 @@ fun Pantalla1(nav: NavController) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Bienvenido a StockPro", style = MaterialTheme.typography.headlineSmall)
-        Spacer(modifier = Modifier.height(16.dp))
+        // Título grande, centrado y con color personalizado
+        Text(
+            text = "Bienvenido a StockPro",
+            style = MaterialTheme.typography.headlineMedium,
+            fontSize = 34.sp,
+            color = Color(0xFF6A4FB0), // morado personalizado; sustituye por otro hex si quieres
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = 24.dp)
+        )
 
         TextField(
             value = nombre,
