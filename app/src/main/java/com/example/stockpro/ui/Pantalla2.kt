@@ -9,6 +9,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.stockpro.viewmodel.StockViewModel
@@ -23,10 +24,26 @@ fun Pantalla2(nav: NavController, vm: StockViewModel, nombre: String) {
             .fillMaxSize()
             .padding(16.dp)
     ) {
-        Text("StockPro", style = MaterialTheme.typography.headlineSmall)
-        Spacer(modifier = Modifier.height(8.dp))
-        Text("Operario: $nombre", style = MaterialTheme.typography.bodyLarge)
-        Spacer(modifier = Modifier.height(12.dp))
+        // Título centrado y destacado
+        Text(
+            "StockPro",
+            style = MaterialTheme.typography.headlineSmall,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = 8.dp),
+            textAlign = TextAlign.Center,
+            color = MaterialTheme.colorScheme.onBackground
+        )
+
+        // Subtítulo centrado (opcional)
+        Text(
+            "Operario: $nombre",
+            style = MaterialTheme.typography.bodyLarge,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = 12.dp),
+            textAlign = TextAlign.Center
+        )
 
         // Filtros
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -66,7 +83,8 @@ fun Pantalla2(nav: NavController, vm: StockViewModel, nombre: String) {
                     modifier = Modifier
                         .fillMaxWidth()
                         .clickable { nav.navigate("detalle/${p.id}") },
-                    elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+                    elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+                    shape = MaterialTheme.shapes.medium
                 ) {
                     Row(
                         modifier = Modifier
